@@ -27,7 +27,7 @@ cv.imshow("Line", blank)
 # 5. Put Text
 blank = np.zeros((500,500,3), dtype='uint8')
 cv.putText(blank, "Hello! This is Hamza Sabir", (0, blank.shape[1]//2), cv.FONT_HERSHEY_COMPLEX
-                                                , 1, (255,0,0))
+                                                , 1, (255,0,0), 2)
 cv.imshow("Text", blank)
 
 cv.waitKey(0)
