@@ -21,7 +21,7 @@ cv.imshow("Circle", blank)
 
 # 4. Draw a Line
 blank = np.zeros((450,450,3), dtype='uint8')
-cv.line(blank, (0,blank.shape[1]//2), (blank.shape[0], blank.shape[1]//2), (255,255,255), thickness=2)
+cv.line(blank, (0,0), (blank.shape[1]//2, blank.shape[0]//2), (255,255,255), thickness=2)
 cv.imshow("Line", blank)
 
 # 5. Put Text
